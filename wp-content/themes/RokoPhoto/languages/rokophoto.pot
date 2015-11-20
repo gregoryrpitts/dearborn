@@ -1,0 +1,722 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RokoPhoto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 16:22+0200\n"
+"PO-Revision-Date: 2015-02-20 16:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: themeisle <friends@themeisle.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: sections\n"
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:72
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:76
+msgid "Your Website"
+msgstr ""
+
+#: comments.php:83
+msgid "Your Message"
+msgstr ""
+
+#: content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:6
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:8
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:11
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-single.php:7
+#: content.php:7
+msgid "Post By:"
+msgstr ""
+
+#: content-single.php:8
+#: content.php:8
+msgid "Date:"
+msgstr ""
+
+#: content-single.php:10
+#: content.php:9
+msgid "Category:"
+msgstr ""
+
+#: content.php:15
+msgid "Read More"
+msgstr ""
+
+#: footer-frontpage.php:6
+#: footer.php:6
+msgid "Follow Me"
+msgstr ""
+
+#: footer-frontpage.php:7
+#: footer.php:7
+msgid "To get the latest update of me and my works"
+msgstr ""
+
+#: footer-frontpage.php:57
+#: footer.php:57
+msgid "Awesome Photography. All Rights Reserved"
+msgstr ""
+
+#: footer-frontpage.php:57
+msgid "RokoPhoto Lite"
+msgstr ""
+
+#: footer-frontpage.php:57
+#: footer.php:57
+msgid " powered by"
+msgstr ""
+
+#: footer.php:57
+msgid "RokoPhoto"
+msgstr ""
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:116
+msgid "Home"
+msgstr ""
+
+#: functions.php:217
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:218
+msgid "on"
+msgstr ""
+
+#: functions.php:223
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header-frontpage.php:26
+#: header.php:26
+msgid "Toggle Navigation"
+msgstr ""
+
+#: header.php:61
+msgid "Welcome to"
+msgstr ""
+
+#: loop-meta.php:11
+#, php-format
+msgid "Home / <a href=\"%2$s\">%1$s</a> / %3$s"
+msgstr ""
+
+#: loop-meta.php:15
+#, php-format
+msgid "Home / Portfolio / %1$s"
+msgstr ""
+
+#: loop-meta.php:19
+#: loop-meta.php:25
+#, php-format
+msgid "Home / %1$s"
+msgstr ""
+
+#: loop-meta.php:43
+#, php-format
+msgid "Posts By: %1$s"
+msgstr ""
+
+#: loop-meta.php:49
+msgid "F d, Y"
+msgstr ""
+
+#: loop-meta.php:51
+msgid "F Y"
+msgstr ""
+
+#: loop-meta.php:53
+msgid "Y"
+msgstr ""
+
+#: loop-meta.php:60
+msgid "Archives"
+msgstr ""
+
+#: loop-meta.php:64
+msgid "Ouch!"
+msgstr ""
+
+#: inc/customizer.php:13
+msgid "Frontpage: Slider"
+msgstr ""
+
+#: inc/customizer.php:15
+msgid "This section allows you to customize the slider that appears on the front-page of your site."
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Frontpage: Vision"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "This section allows you to customize the vision section that appears on the front-page of your site."
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Frontpage: Portfolio"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "This section allows you to customize the portfolio section that appears on the front-page of your site."
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Frontpage: Ribbon"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "This section allows you to customize the ribbon section that appears on the front-page of your site."
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Frontpage: About"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "This section allows you to customize the about section that appears on the front-page of your site."
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Frontpage: Contact"
+msgstr ""
+
+#: inc/customizer.php:75
+msgid "This section allows you to customize the contact section that appears on the front-page of your site."
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Sub-Header"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:120
+#: inc/customizer.php:614
+#: sections/slider.php:7
+msgid "Slide One"
+msgstr ""
+
+#: inc/customizer.php:129
+#: inc/customizer.php:664
+#: sections/slider.php:8
+msgid "Slide Two"
+msgstr ""
+
+#: inc/customizer.php:138
+#: inc/customizer.php:714
+#: sections/slider.php:9
+msgid "Slide Three"
+msgstr ""
+
+#: inc/customizer.php:147
+#: inc/customizer.php:764
+#: sections/slider.php:10
+msgid "Slide Four"
+msgstr ""
+
+#: inc/customizer.php:156
+#: inc/customizer.php:814
+#: sections/slider.php:11
+msgid "Slide Five"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "Vision Settings"
+msgstr ""
+
+#: inc/customizer.php:174
+msgid "Vision One"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Vision Two"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Vision Three"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Ribbon Settings"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "Ribbon Content"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "About Settings"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "About Content"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Contact Settings"
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Site Logo Image"
+msgstr ""
+
+#: inc/customizer.php:300
+msgid "Sub-Header Title"
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Social Box Label"
+msgstr ""
+
+#: inc/customizer.php:352
+msgid "Social Box Text"
+msgstr ""
+
+#: inc/customizer.php:378
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:430
+msgid "Behance URL"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "Dribbble URL"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Google + URL"
+msgstr ""
+
+#: inc/customizer.php:534
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:560
+msgid "Footer Copyrights"
+msgstr ""
+
+#: inc/customizer.php:578
+msgid "Disable Slider"
+msgstr ""
+
+#: inc/customizer.php:601
+#: inc/customizer.php:651
+#: inc/customizer.php:701
+#: inc/customizer.php:751
+#: inc/customizer.php:801
+msgid "Slide Image"
+msgstr ""
+
+#: inc/customizer.php:626
+#: inc/customizer.php:676
+#: inc/customizer.php:726
+#: inc/customizer.php:776
+#: inc/customizer.php:826
+msgid "Slide Text"
+msgstr ""
+
+#: inc/customizer.php:844
+msgid "Disable Vision"
+msgstr ""
+
+#: inc/customizer.php:866
+msgid "Vision Background Image"
+msgstr ""
+
+#: inc/customizer.php:884
+msgid "Disable First Slide"
+msgstr ""
+
+#: inc/customizer.php:894
+#: sections/vision.php:6
+msgid "Design To Showcase"
+msgstr ""
+
+#: inc/customizer.php:906
+#: inc/customizer.php:996
+#: inc/customizer.php:1086
+msgid "First Line"
+msgstr ""
+
+#: inc/customizer.php:919
+#: inc/customizer.php:1009
+#: inc/customizer.php:1099
+#: sections/vision.php:7
+#: sections/vision.php:10
+#: sections/vision.php:13
+msgid "Photography"
+msgstr ""
+
+#: inc/customizer.php:931
+#: inc/customizer.php:1021
+#: inc/customizer.php:1111
+msgid "Second Line"
+msgstr ""
+
+#: inc/customizer.php:944
+#: sections/vision.php:8
+msgid "The need to capture the moment and freeze it for life."
+msgstr ""
+
+#: inc/customizer.php:956
+#: inc/customizer.php:1046
+#: inc/customizer.php:1136
+msgid "Third Line"
+msgstr ""
+
+#: inc/customizer.php:974
+msgid "Disable Second Slide"
+msgstr ""
+
+#: inc/customizer.php:984
+#: sections/vision.php:9
+msgid "Capture The Moment"
+msgstr ""
+
+#: inc/customizer.php:1034
+#: sections/vision.php:11
+msgid "Quality photography that preserves treasured memories."
+msgstr ""
+
+#: inc/customizer.php:1064
+msgid "Disable Third Slide"
+msgstr ""
+
+#: inc/customizer.php:1074
+#: sections/vision.php:12
+msgid "Still-life Images"
+msgstr ""
+
+#: inc/customizer.php:1124
+#: sections/vision.php:14
+msgid "Take alot of photos not war."
+msgstr ""
+
+#: inc/customizer.php:1154
+msgid "Disable Portfolio"
+msgstr ""
+
+#: inc/customizer.php:1164
+#: inc/portfolio.php:9
+#: sections/portfolio.php:3
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer.php:1176
+msgid "Section Heading"
+msgstr ""
+
+#: inc/customizer.php:1189
+#: sections/portfolio.php:4
+msgid "Recent pictures I have taken. Check them out!"
+msgstr ""
+
+#: inc/customizer.php:1201
+msgid "Section Sub-heading"
+msgstr ""
+
+#: inc/customizer.php:1226
+msgid "Item Count"
+msgstr ""
+
+#: inc/customizer.php:1244
+msgid "Disable Ribbon"
+msgstr ""
+
+#: inc/customizer.php:1255
+#: sections/ribbon.php:2
+msgid "Want to talk? You can contact by me clicking on..."
+msgstr ""
+
+#: inc/customizer.php:1267
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:1280
+#: sections/ribbon.php:3
+msgid "CONTACT"
+msgstr ""
+
+#: inc/customizer.php:1292
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:1317
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer.php:1335
+msgid "Disable About"
+msgstr ""
+
+#: inc/customizer.php:1358
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:1371
+#: sections/about.php:3
+msgid "Hello Kitty"
+msgstr ""
+
+#: inc/customizer.php:1383
+msgid "Name"
+msgstr ""
+
+#: inc/customizer.php:1396
+#: sections/about.php:4
+msgid "Planet Earth, Milky-way"
+msgstr ""
+
+#: inc/customizer.php:1408
+msgid "Address"
+msgstr ""
+
+#: inc/customizer.php:1422
+#: sections/about.php:5
+#: sections/contact.php:3
+msgid "www.themeisle.com"
+msgstr ""
+
+#: inc/customizer.php:1434
+msgid "Website"
+msgstr ""
+
+#: inc/customizer.php:1448
+#: sections/about.php:6
+msgid "I love WordPress"
+msgstr ""
+
+#: inc/customizer.php:1460
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer.php:1474
+#: sections/about.php:7
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+msgstr ""
+
+#: inc/customizer.php:1488
+msgid "Bio"
+msgstr ""
+
+#: inc/customizer.php:1506
+msgid "Disable Contact"
+msgstr ""
+
+#: inc/customizer.php:1517
+#: sections/contact.php:4
+msgid "WORK w/ ME"
+msgstr ""
+
+#: inc/customizer.php:1529
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer.php:1543
+msgid "you@domain.com"
+msgstr ""
+
+#: inc/customizer.php:1555
+msgid "Email"
+msgstr ""
+
+#: inc/portfolio.php:10
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/portfolio.php:11
+msgid "All Items"
+msgstr ""
+
+#: inc/portfolio.php:12
+msgid "View Item"
+msgstr ""
+
+#: inc/portfolio.php:13
+msgid "Add New Item"
+msgstr ""
+
+#: inc/portfolio.php:14
+msgid "Add New"
+msgstr ""
+
+#: inc/portfolio.php:15
+msgid "Edit Item"
+msgstr ""
+
+#: inc/portfolio.php:16
+msgid "Update Item"
+msgstr ""
+
+#: inc/portfolio.php:17
+msgid "Search Item"
+msgstr ""
+
+#: inc/portfolio.php:18
+msgid "Not found"
+msgstr ""
+
+#: inc/portfolio.php:19
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/portfolio.php:22
+msgid "portfolio"
+msgstr ""
+
+#: inc/portfolio.php:23
+msgid "Your portfolio items."
+msgstr ""
+
+#: sections/contact.php:38
+msgid "Your Name *"
+msgstr ""
+
+#: sections/contact.php:38
+msgid "Please enter your name."
+msgstr ""
+
+#: sections/contact.php:42
+msgid "Your Email *"
+msgstr ""
+
+#: sections/contact.php:42
+msgid "Please enter your email address."
+msgstr ""
+
+#: sections/contact.php:46
+msgid "Your Phone *"
+msgstr ""
+
+#: sections/contact.php:46
+msgid "Please enter your phone number."
+msgstr ""
+
+#: sections/contact.php:52
+msgid "Your Message *"
+msgstr ""
+
+#: sections/contact.php:52
+msgid "Please enter a message."
+msgstr ""
+
+#: sections/contact.php:59
+msgid "Send Message"
+msgstr ""
+
+#: sections/portfolio.php:35
+#: sections/portfolio.php:48
+#: sections/portfolio.php:57
+#: sections/portfolio.php:66
+#: sections/portfolio.php:75
+#: sections/portfolio.php:84
+#: sections/portfolio.php:93
+msgid "View More"
+msgstr ""
+
+#: sections/portfolio.php:46
+msgid "Item 1"
+msgstr ""
+
+#: sections/portfolio.php:47
+#: sections/portfolio.php:56
+#: sections/portfolio.php:65
+#: sections/portfolio.php:74
+#: sections/portfolio.php:83
+#: sections/portfolio.php:92
+msgid "Hi, my name is description."
+msgstr ""
+
+#: sections/portfolio.php:55
+msgid "Item 2"
+msgstr ""
+
+#: sections/portfolio.php:64
+msgid "Item 3"
+msgstr ""
+
+#: sections/portfolio.php:73
+msgid "Item 4"
+msgstr ""
+
+#: sections/portfolio.php:82
+msgid "Item 5"
+msgstr ""
+
+#: sections/portfolio.php:91
+msgid "Item 6"
+msgstr ""
+

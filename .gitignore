@@ -1,0 +1,12 @@
+.htaccess
+400.shtml
+401.shtml
+403.shtml
+404.shtml
+500.php
+500.shtml
+default.html
+ssv3_directory.php
+wp-config.php
+error_log
+wp-admin/error_log
