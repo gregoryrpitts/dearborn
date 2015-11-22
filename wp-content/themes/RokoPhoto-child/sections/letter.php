@@ -6,7 +6,7 @@ $rokophoto_child_letter_paragraph_three = get_theme_mod('rokophoto_child_letter_
 $rokophoto_child_letter_signature = get_theme_mod('rokophoto_child_letter_signature');
 
 ?>
-<!-- Tom Dearborn Letter
+<!-- Tom Dearborn / Letter Section
 ================================================== -->
 <section id="letter">
   <div class="container">
