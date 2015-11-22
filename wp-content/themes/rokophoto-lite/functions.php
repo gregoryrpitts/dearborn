@@ -11,6 +11,9 @@ function rokophotolite_setup() {
     if (!isset($content_width)) {
         $content_width = 750;
     }
+	
+	// text domain
+	load_theme_textdomain('rokophotolite', get_template_directory() . '/languages'); 
 
     // Takes care of the <title> tag.
     add_theme_support( 'title-tag' );
@@ -30,15 +33,21 @@ function rokophotolite_setup() {
     // Add custom header support. http://codex.wordpress.org/Custom_Headers
     add_theme_support('custom-header', array(
         // Defualt image
-        'default-image' => get_template_directory_uri() . '/img/01_services.jpg',
+        'default-image'     => get_template_directory_uri() . '/img/01_services.jpg',
     	// Header text
-    	'header-text' => false,
+    	'header-text'       => false,
+        'width'             => 1360,
+        'height'            => 582
     ));
 
     // This theme uses wp_nav_menu().
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'rokophotolite' ),
 	) );
+
+    add_image_size( 'blog_post_thumbnail', 750, 650, true );
+    add_image_size( 'blog_post_thumbnail_mobile', 400, 400, true );
+	
 }
 
 add_action( 'after_setup_theme', 'rokophotolite_setup' );
@@ -54,6 +63,7 @@ function rokophotolite_scripts() {
     if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
     wp_enqueue_script( 'rokophotolite_modernizr', get_template_directory_uri() . '/js/modernizr.custom.js');
 
+    wp_enqueue_script( 'rokophotolite_navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
     wp_enqueue_script( 'rokophotolite_bootstrap', get_template_directory_uri() . '/js/bootstrap.js',array('jquery'),'',true);
     wp_enqueue_script( 'rokophotolite_wow', get_template_directory_uri() . '/js/wow.min.js',array('jquery'),'',true);
     wp_enqueue_script( 'rokophotolite_smooth_scroll', get_template_directory_uri() . '/js/SmoothScroll.js',array('jquery'),'',true);
@@ -117,7 +127,7 @@ $GLOBALS['comment'] = $comment;
             </td>
             <td class="comment-data">
                 <div class="comment-header">
-                    <span class="comment-author"><?php printf(__('%s'), get_comment_author_link()) ?></span>
+                    <span class="comment-author"><?php printf(__('%s', 'rokophotolite'), get_comment_author_link()) ?></span>
                     <span class="comment-date"><?php echo get_comment_date(); ?> <?php _e('on', 'rokophotolite'); ?> <?php echo get_comment_time(); ?></span>
                     <?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
                 </div>
@@ -442,7 +452,7 @@ function rokophotolite_customize_register($wp_customize)
     ));
 
     $wp_customize->add_setting('rokophotolite_footer_copyrights', array(
-        'default' => '© RokoPhoto Lite. All Rights Reserved',
+        'default' => 'RokoPhoto Lite. All Rights Reserved',
         'capability' => 'edit_theme_options',
         'sanitize_callback' => 'sanitize_text_field'
     ));
@@ -464,7 +474,8 @@ function rokophotolite_registers() {
 	wp_localize_script( 'rokophotolite_customizer_script', 'objectL10n', array(
 		
 		'documentation' => __( 'Documentation', 'rokophotolite' ),
-		'pro' => __('View PRO version','rokophotolite')
+		'pro' => __('View PRO version','rokophotolite'),
+		'review' => __( 'Leave us a review(it will help us)','rokophotolite' ),
 		
 	) );
 }
@@ -472,4 +483,26 @@ add_action( 'customize_controls_enqueue_scripts', 'rokophotolite_registers' );
 
 function rokophotolite_sanitize_pro_version( $input ) {
     return $input;
+}
+
+add_action( 'widgets_init', 'rokophoto_widgets_init' );
+function rokophoto_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Sidebar top', 'rokophoto' ),
+        'id'            => 'rokophoto-sidebar-top',
+        'description'   => __( 'Widgets in this area will be shown on all posts and pages.', 'rokophoto' ),
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</li>',
+        'before_title'  => '<h2 class="widgettitle">',
+        'after_title'   => '</h2>',
+    ) );
+    register_sidebar( array(
+        'name'          => __( 'Sidebar bottom', 'rokophoto' ),
+        'id'            => 'rokophoto-sidebar-bottom',
+        'description'   => __( 'Widgets in this area will be shown on all posts and pages.', 'rokophoto' ),
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</li>',
+        'before_title'  => '<h2 class="widgettitle">',
+        'after_title'   => '</h2>',
+    ) );
 }

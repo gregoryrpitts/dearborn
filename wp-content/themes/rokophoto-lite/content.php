@@ -9,7 +9,14 @@
                                 <li><?php _e( 'Category:', 'rokophotolite' ); ?> <?php the_category(', '); ?></li>
                             </ul>
                             <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-                                <?php the_post_thumbnail( 'full', array( 'class' => "img-responsive")); ?>
+                                <?php 
+                                    $image_id = get_post_thumbnail_id();
+                                    $image_url_mobile = wp_get_attachment_image_src($image_id, 'blog_post_thumbnail_mobile', true);
+                                ?>
+                                <picture>
+                                    <source media="(max-width: 480px)" srcset="<?php echo $image_url_mobile[0]; ?>">
+                                    <?php the_post_thumbnail( 'blog_post_thumbnail', array( 'class' => "img-responsive")); ?>
+                                </picture>
                             <?php endif; ?>
                             <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>" class="btn btn-primary"><?php _e( 'Read More', 'rokophotolite' ); ?></a>

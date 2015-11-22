@@ -2,6 +2,7 @@
 
     <!-- Blog Posts
     ================================================== -->
+    <?php get_sidebar('top'); ?>
     <div class="blog">
         <div class="container">
             <div class="row">
@@ -26,5 +27,6 @@
 			comments_template();
 		endif;
     ?>
-
+    <?php get_sidebar('bottom'); ?>
+    
 <?php get_footer(); ?>
