@@ -35,7 +35,7 @@ else {
 	$rokophoto_slider_display_settings = get_theme_mod('rokophoto_slider_display_settings');
 	
 	//gpitts
-	$rokophoto_letter_display_settings = get_theme_mod('rokophoto_letter_display_settings');
+	$rokophoto_letter_display_settings = get_theme_mod('rokophoto_child_letter_display_settings');
 	$rokophoto_convo_display_settings = get_theme_mod('rokophoto_convo_display_settings');
 	//end gpitts
 	
