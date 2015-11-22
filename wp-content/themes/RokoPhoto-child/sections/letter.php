@@ -17,7 +17,7 @@ $rokophoto_portfolio_display_settings = get_theme_mod('rokophoto_portfolio_displ
 $rokophoto_child_letter_paragraph_one = get_theme_mod('rokophoto_child_letter_text1');
 $rokophoto_child_letter_paragraph_two = get_theme_mod('rokophoto_child_letter_text2');
 $rokophoto_child_letter_paragraph_two = get_theme_mod('rokophoto_child_letter_text3');
-
+$rokophoto_child_letter_signature = get_theme_mod('rokophoto_child_letter_signature');
 
 ?>
     <!-- Vision/Mission 
