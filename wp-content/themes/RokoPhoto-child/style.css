@@ -1,0 +1,19 @@
+/*
+Theme Name: RokoPhoto Child
+Theme URI: https://www.gregoryrpitts.com
+Author: Gregory Pitts/AAron Straker
+Author URI: https://gregoryrpitts.com
+Template: RokoPhoto
+Description: RokoPhoto is theme made for photographers with a stylish front-page for you to photograph some of your best work. This theme also includes 2 different types of sliders, portfolio section, as well as built-in contact form.
+Version: 1.1.3.6
+Tags: white, black, one-column, responsive-layout, custom-background, custom-header, custom-menu, featured-images, threaded-comments, translation-ready
+License: GNU General Public License v2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rokophoto-child
+*/
+
+@import "../RokoPhoto/style.css";
+
+.carousel-content-wrap h1{
+    color:red;
+}
