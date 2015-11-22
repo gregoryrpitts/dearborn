@@ -36,7 +36,7 @@ else {
 	
 	//gpitts
 	$rokophoto_letter_display_settings = get_theme_mod('rokophoto_child_letter_display_settings');
-	$rokophoto_convo_display_settings = get_theme_mod('rokophoto_convo_display_settings');
+	$rokophoto_convo_display_settings = get_theme_mod('rokophoto_child_convo_display_settings');
 	//end gpitts
 	
 	$rokophoto_vision_display_settings = get_theme_mod('rokophoto_vision_display_settings');
