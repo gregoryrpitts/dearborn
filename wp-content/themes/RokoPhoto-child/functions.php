@@ -91,41 +91,41 @@ function rokophoto_child_customize_register($wp_customize) {
 	));
     
     /* Title */
-    $wp_customize->add_setting('rokophoto_child_convo_text1', array(
+    $wp_customize->add_setting('rokophoto_child_convo_title', array(
         'default' => 'Title',
+        'sanitize_callback' => 'sanitize_text_field'
+    ));
+	$wp_customize->add_control('rokophoto_child_convo_title', array(
+        'label' => 'Paragraph One Text',
+        'section' => 'rokophoto_child_convo_settings',
+        'priority' => 8,
+        'settings' => 'rokophoto_child_convo_title'
+    ));
+    
+    /* Paragraph One */
+    $wp_customize->add_setting('rokophoto_child_convo_text1', array(
+        'default' => 'Paragraph One',
         'sanitize_callback' => 'sanitize_text_field'
     ));
 	$wp_customize->add_control('rokophoto_child_convo_text1', array(
         'label' => 'Paragraph One Text',
         'section' => 'rokophoto_child_convo_settings',
-        'priority' => 8,
-        'settings' => 'rokophoto_child_convo_text1'
-    ));
-    
-    /* Paragraph One */
-    $wp_customize->add_setting('rokophoto_child_convo_text2', array(
-        'default' => 'Paragraph One',
-        'sanitize_callback' => 'sanitize_text_field'
-    ));
-	$wp_customize->add_control('rokophoto_child_convo_text2', array(
-        'label' => 'Paragraph One Text',
-        'section' => 'rokophoto_child_convo_settings',
         'type' => 'textarea',
         'priority' => 9,
-        'settings' => 'rokophoto_child_convo_text2'
+        'settings' => 'rokophoto_child_convo_text1'
     ));
 
     /* Paragraph Two */
-    $wp_customize->add_setting('rokophoto_child_convo_text3', array(
+    $wp_customize->add_setting('rokophoto_child_convo_text2', array(
         'default' => 'Paragraph Two',
         'sanitize_callback' => 'sanitize_text_field'
     ));
-	$wp_customize->add_control('rokophoto_child_convo_text3', array(
+	$wp_customize->add_control('rokophoto_child_convo_text2', array(
         'label' => 'Paragraph Two Text',
         'section' => 'rokophoto_child_convo_settings',
         'type' => 'textarea',
         'priority' => 10,
-        'settings' => 'rokophoto_child_convo_text3'
+        'settings' => 'rokophoto_child_convo_text2'
     ));
     
     /* Image */

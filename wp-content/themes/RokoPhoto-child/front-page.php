@@ -51,10 +51,10 @@ else {
 
 	// gpitts
 	if( isset($rokophoto_letter_display_settings) && $rokophoto_letter_display_settings != 1 ):
-		include get_template_directory() . "/sections/letter.php";
+		include get_template_directory() . "/../RokoPhoto-child/sections/letter.php";
 	endif;
 	if( isset($rokophoto_convo_display_settings) && $rokophoto_convo_display_settings != 1 ):
-		include get_template_directory() . "/sections/convo.php";
+		include get_template_directory() . "/../RokoPhoto-child/sections/convo.php";
 	endif;
 	// end gpitts
 
