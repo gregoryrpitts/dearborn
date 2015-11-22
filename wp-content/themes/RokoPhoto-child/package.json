@@ -1,0 +1,18 @@
+{
+  "name": "rokophoto-child",
+  "version": "1.0.0",
+  "description": "Child theme for RokoPhoto WP theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Straker",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-util": "^3.0.7"
+  }
+}
