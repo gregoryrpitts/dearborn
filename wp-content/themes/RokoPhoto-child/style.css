@@ -40,3 +40,23 @@ Text Domain: rokophoto-child
     width: 500px;
   }
 }
+#letter {
+  clear: both;
+  display: block;
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  #letter {
+    padding: 60px 0;
+  }
+}
+@media (min-width: 992px) {
+  #letter {
+    padding: 75px 0;
+  }
+}
+#letter .statement {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 16px;
+}

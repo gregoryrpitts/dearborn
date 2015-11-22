@@ -17,7 +17,7 @@ function rokophoto_child_customize_register($wp_customize) {
         'title' => 'Letter Settings',
         'panel'  => 'rokophoto_child_letter_section',
     ));
-	
+
     /* Disable/Enable this section */
     $wp_customize->add_setting( 'rokophoto_child_letter_display_settings');
 	$wp_customize->add_control('rokophoto_child_letter_display_settings',array(
@@ -26,7 +26,7 @@ function rokophoto_child_customize_register($wp_customize) {
 		'section' => 'rokophoto_child_letter_settings',
 		'priority' => 5,
 	));
-    
+
     /* Paragraph One */
     $wp_customize->add_setting('rokophoto_child_letter_text1', array(
         'default' => 'Paragraph One',
@@ -52,7 +52,7 @@ function rokophoto_child_customize_register($wp_customize) {
         'priority' => 10,
         'settings' => 'rokophoto_child_letter_text2'
     ));
-    
+
     /* Paragraph Three */
     $wp_customize->add_setting('rokophoto_child_letter_text3', array(
         'default' => 'Paragraph Three',
@@ -65,11 +65,10 @@ function rokophoto_child_customize_register($wp_customize) {
         'priority' => 11,
         'settings' => 'rokophoto_child_letter_text3'
     ));
-    
+
     /* Paragraph Three */
     $wp_customize->add_setting('rokophoto_child_letter_signature', array(
-        'default' => 'Signature',
-        'sanitize_callback' => 'sanitize_text_field'
+        'default' => 'Signature'
     ));
 	$wp_customize->add_control('rokophoto_child_letter_signature', array(
         'label' => 'Signature Text',
@@ -78,7 +77,7 @@ function rokophoto_child_customize_register($wp_customize) {
         'priority' => 12,
         'settings' => 'rokophoto_child_letter_signature'
     ));
-    
+
     /**********************************************/
 	/********* Converstaions Section **************/
 	/**********************************************/
@@ -88,14 +87,14 @@ function rokophoto_child_customize_register($wp_customize) {
         'title'          => 'Frontpage: Conversations',
         'description'    => 'This section allows you to customize the Colloborative Conversations section that appears on the front page of your site.',
     ));
-    
+
 	/* Settings */
 	$wp_customize->add_section('rokophoto_child_convo_settings', array(
         'priority' => 5,
         'title' => 'Convo Settings',
         'panel'  => 'rokophoto_child_convo_section',
     ));
-    
+
     /* Disable/Enable this section */
     $wp_customize->add_setting( 'rokophoto_child_convo_display_settings');
 	$wp_customize->add_control('rokophoto_child_convo_display_settings',array(
@@ -104,7 +103,7 @@ function rokophoto_child_customize_register($wp_customize) {
 		'section' => 'rokophoto_child_convo_settings',
 		'priority' => 5,
 	));
-    
+
     /* Title */
     $wp_customize->add_setting('rokophoto_child_convo_title', array(
         'default' => 'Title',
@@ -116,7 +115,7 @@ function rokophoto_child_customize_register($wp_customize) {
         'priority' => 8,
         'settings' => 'rokophoto_child_convo_title'
     ));
-    
+
     /* Paragraph One */
     $wp_customize->add_setting('rokophoto_child_convo_text1', array(
         'default' => 'Paragraph One',
@@ -140,7 +139,7 @@ function rokophoto_child_customize_register($wp_customize) {
         'priority' => 10,
         'settings' => 'rokophoto_child_convo_text2'
     ));
-    
+
     /* Image */
     $wp_customize->add_setting('rokophoto_child_convo_image', array(
         'default' => get_template_directory_uri().'/../../uploads/2015/11/Untitled-5-450x400.jpg',
