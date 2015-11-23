@@ -83,3 +83,6 @@ Text Domain: rokophoto-child
 #convo .image-container img {
   max-width: 100%;
 }
+section#contact {
+    display:none;
+}
