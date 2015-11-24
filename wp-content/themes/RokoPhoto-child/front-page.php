@@ -35,6 +35,7 @@ else {
 	$rokophoto_slider_display_settings = get_theme_mod('rokophoto_slider_display_settings');
 	
 	//gpitts
+	$rokophoto_heading_display_settings = get_theme_mod('rokophoto_child_heading_display_settings');
 	$rokophoto_letter_display_settings = get_theme_mod('rokophoto_child_letter_display_settings');
 	$rokophoto_convo_display_settings = get_theme_mod('rokophoto_child_convo_display_settings');
 	//end gpitts
@@ -50,6 +51,9 @@ else {
 	endif;
 
 	// gpitts
+	if( isset($rokophoto_heading_display_settings) && $rokophoto_heading_display_settings != 1 ):
+		include get_template_directory() . "/../RokoPhoto-child/sections/heading.php";
+	endif;
 	if( isset($rokophoto_letter_display_settings) && $rokophoto_letter_display_settings != 1 ):
 		include get_template_directory() . "/../RokoPhoto-child/sections/letter.php";
 	endif;

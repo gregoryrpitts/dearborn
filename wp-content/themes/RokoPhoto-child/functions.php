@@ -1,6 +1,40 @@
 <?php
 function rokophoto_child_customize_register($wp_customize) {
 
+	/*******************************************/
+	/********* Heading Section    **************/
+	/*******************************************/
+        $wp_customize->add_panel('rokophoto_child_heading_section', array(
+        'priority'       => 65,
+        'capability'     => 'edit_theme_options',
+        'title'          => 'Frontpage: Heading',
+        'description'    => 'This section allows you to customize the heading section that appears on the front page of your site.',
+    ));
+	/* Content */
+	$wp_customize->add_section('rokophoto_child_header_content', array(
+        'priority' => 5,
+        'title' => 'Header Content',
+        'panel'  => 'rokophoto_child_heading_section',
+    ));
+    /* Disable/Enable this section */
+    $wp_customize->add_setting( 'rokophoto_child_heading_display_settings');
+	$wp_customize->add_control('rokophoto_child_heading_display_settings',array(
+		'type' => 'checkbox',
+		'label' => 'Disable Heading',
+		'section' => 'rokophoto_child_header_content',
+		'priority' => 5,
+	));
+    /* Title */
+    $wp_customize->add_setting('rokophoto_child_heading', array(
+        'default' => 'Heading',
+        'sanitize_callback' => 'sanitize_text_field'
+    ));
+	$wp_customize->add_control('rokophoto_child_heading', array(
+        'label' => 'Paragraph One Text',
+        'section' => 'rokophoto_child_header_content',
+        'priority' => 8,
+        'settings' => 'rokophoto_child_heading'
+    ));
 
 	/*******************************************/
 	/*********    Letter Section **************/
