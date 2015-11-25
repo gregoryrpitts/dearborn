@@ -12,6 +12,31 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: rokophoto-child
 */
 @import "../RokoPhoto/style.css";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700|Montserrat);
+body p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+#heading {
+  clear: both;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+  #heading {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 992px) {
+  #heading {
+    padding: 40px 0;
+  }
+}
+#heading h3.heading {
+  text-align: center;
+  margin: 0;
+}
 .carousel-caption .content {
   position: absolute;
   right: 0;
@@ -43,28 +68,33 @@ Text Domain: rokophoto-child
 #letter {
   clear: both;
   display: block;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 @media (min-width: 768px) {
   #letter {
-    padding: 60px 0;
+    padding: 40px 0;
   }
 }
 @media (min-width: 992px) {
   #letter {
-    padding: 75px 0;
+    padding: 50px 0;
   }
 }
 #letter .statement {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  margin-bottom: 20px;
   font-size: 16px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  #letter .statement {
+    padding: 0 40px;
+  }
 }
 #convo {
   clear: both;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 #convo .convo-title {
-  margin-bottom: 20px;
+  margin: 30px 0;
   text-align: center;
 }
 @media (min-width: 992px) {
@@ -83,6 +113,8 @@ Text Domain: rokophoto-child
 #convo .image-container img {
   max-width: 100%;
 }
-section#contact {
-    display:none;
+@media (min-width: 768px) {
+  #convo .image-container img {
+    margin-top: -1px;
+  }
 }
