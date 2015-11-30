@@ -55,11 +55,4 @@
     <!-- Blog
     ================================================== -->
     <section id="blog" style="background-image: url('<?php header_image(); ?>');">
-      <div class="dark-overlay vision">
-        <div class="centered vision-border wow bounceIn">
-          
-          <h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h2>
-          <?php get_template_part( 'loop-meta' ); //Loads the loop-meta.php template. ?>
-        </div>
-      </div>
     </section>
