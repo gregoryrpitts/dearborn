@@ -60,6 +60,18 @@ function rokophoto_child_customize_register($wp_customize) {
 		'section' => 'rokophoto_child_letter_settings',
 		'priority' => 5,
 	));
+    
+    /* Title */
+    $wp_customize->add_setting('rokophoto_child_letter_title', array(
+        'default' => 'Title',
+        'sanitize_callback' => 'sanitize_text_field'
+    ));
+	$wp_customize->add_control('rokophoto_child_letter_title', array(
+        'label' => 'Title',
+        'section' => 'rokophoto_child_letter_settings',
+        'priority' => 8,
+        'settings' => 'rokophoto_child_letter_title'
+    ));
 
     /* Paragraph One */
     $wp_customize->add_setting('rokophoto_child_letter_text1', array(

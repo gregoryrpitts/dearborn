@@ -1,5 +1,6 @@
 <?php
 
+$rokophoto_child_letter_title = get_theme_mod('rokophoto_child_letter_title');
 $rokophoto_child_letter_paragraph_one = get_theme_mod('rokophoto_child_letter_text1');
 $rokophoto_child_letter_paragraph_two = get_theme_mod('rokophoto_child_letter_text2');
 $rokophoto_child_letter_paragraph_three = get_theme_mod('rokophoto_child_letter_text3');
@@ -10,6 +11,11 @@ $rokophoto_child_letter_signature = get_theme_mod('rokophoto_child_letter_signat
 ================================================== -->
 <section id="letter">
   <div class="container">
+    <div class="col-sm-12">
+      <?php if(!empty($rokophoto_child_letter_title)) : ?>
+        <h3 class="heading"><?php echo $rokophoto_child_letter_title; ?></h3>
+        <?php endif; ?>
+    </div>
     <div class="col-sm-12">
 	     <?php if(!empty($rokophoto_child_letter_paragraph_one)) : ?>
          <p class="statement"><?php echo $rokophoto_child_letter_paragraph_one; ?></p>
