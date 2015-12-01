@@ -75,8 +75,7 @@ function rokophoto_child_customize_register($wp_customize) {
 
     /* Paragraph One */
     $wp_customize->add_setting('rokophoto_child_letter_text1', array(
-        'default' => 'Paragraph One',
-        'sanitize_callback' => 'sanitize_text_field'
+        'default' => 'Paragraph One'
     ));
 	$wp_customize->add_control('rokophoto_child_letter_text1', array(
         'label' => 'Paragraph One Text',
@@ -88,8 +87,7 @@ function rokophoto_child_customize_register($wp_customize) {
 
     /* Paragraph Two */
     $wp_customize->add_setting('rokophoto_child_letter_text2', array(
-        'default' => 'Paragraph Two',
-        'sanitize_callback' => 'sanitize_text_field'
+        'default' => 'Paragraph Two'
     ));
 	$wp_customize->add_control('rokophoto_child_letter_text2', array(
         'label' => 'Paragraph Two Text',
@@ -101,8 +99,7 @@ function rokophoto_child_customize_register($wp_customize) {
 
     /* Paragraph Three */
     $wp_customize->add_setting('rokophoto_child_letter_text3', array(
-        'default' => 'Paragraph Three',
-        'sanitize_callback' => 'sanitize_text_field'
+        'default' => 'Paragraph Three'
     ));
 	$wp_customize->add_control('rokophoto_child_letter_text3', array(
         'label' => 'Paragraph Three Text',

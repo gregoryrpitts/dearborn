@@ -162,6 +162,11 @@ body p {
     padding: 50px 0;
   }
 }
+#letter h3.heading {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 35px;
+}
 #letter .statement {
   font-size: 16px;
   padding: 0 20px;
@@ -173,7 +178,7 @@ body p {
 }
 #convo {
   clear: both;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
 }
 #convo .convo-title {
   margin: 30px 0;
@@ -199,4 +204,7 @@ body p {
   #convo .image-container img {
     margin-top: -1px;
   }
+}
+#footer p.footer-contact-email {
+  margin-top: 20px;
 }
