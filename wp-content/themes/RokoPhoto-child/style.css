@@ -123,3 +123,6 @@ body p {
     margin-top: -1px;
   }
 }
+#footer p.footer-contact-email {
+  margin-top: 20px;
+}

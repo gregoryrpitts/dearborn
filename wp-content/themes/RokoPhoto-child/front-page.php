@@ -78,7 +78,7 @@ else {
 		include get_template_directory() . "/sections/about.php";
 	endif;
 	if( isset($rokophoto_contact_display_settings) && $rokophoto_contact_display_settings != 1 ):
-		include get_template_directory() . "/sections/contact.php";
+		include get_template_directory() . "/../RokoPhoto-child/sections/contact.php";
 	endif;
 	
 	get_footer('frontpage');

@@ -18,9 +18,9 @@ $rokophoto_contact_email = get_theme_mod('rokophoto_contact_email', get_bloginfo
 			<a id="show" class="btn wow bounceIn" data-wow-delay="0.6s"><h2><?php echo $rokophoto_contact_heading; ?></h2></a> <!-- Button to click toggle contact form -->
 		<?php endif; ?>
         <br>
-		<?php if(!empty($rokophoto_contact_email)) : ?>
-			<p><?php echo $rokophoto_contact_email; ?></p> <!-- Your email add here -->
-		<?php endif; ?>
+		    <?php if(!empty($rokophoto_contact_email)) : ?>
+			   <p  class="footer-contact-email"><?php echo $rokophoto_contact_email; ?></p> <!-- Your email add here -->
+		    <?php endif; ?>
 		<?php if(!empty($rokophoto_about_website)) : ?>
 			<p><?php echo $rokophoto_about_website; ?></p> <!-- Any other information here -->
 		<?php endif; ?>
