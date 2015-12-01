@@ -15,6 +15,10 @@ Text Domain: rokophoto-child
 @import "../RokoPhoto/style.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700|Montserrat);
 
+@col-sm-min: 768px;
+@col-md-min: 992px;
+@col-lg-min: 1200px;
+
 body {
   p  {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -23,16 +27,95 @@ body {
   }
 }
 
+.navbar-default {
+  background-color:#222;
+}
+
+.navbar-header {
+  @media(min-width:601px) {
+    border-bottom:1px solid rgba(255,255,255,0.1);
+  }
+
+  @media(min-width:@col-sm-min) {
+    border-bottom:none;
+    width:40%;
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  @media(min-width:@col-md-min) {
+    width:45%;
+  }
+
+  .navbar-brand {
+    width: calc(~'100% - 59px');
+    box-sizing:border-box;
+    height:auto;
+    color:#fff;
+
+    @media(min-width:601px) {
+      width:100%;
+    }
+
+    @media(min-width:@col-sm-min) {
+      padding:0;
+    }
+
+    @media(min-width:@col-md-min) {
+      padding:10px 0;
+    }
+
+    @media(min-width:@col-lg-min) {
+      padding:16px 0;
+    }
+  }
+  h4 {
+    font-size:14px;
+    margin:0;
+  }
+}
+
+.toggled .navbar-header {
+  @media(max-width:601px) {
+    border-bottom:1px solid rgba(255,255,255,0.1);
+  }
+}
+
+.navbar-nav {
+
+  @media(min-width:601px) {
+    width:100%;
+    text-align:center;
+  }
+
+  @media(min-width:@col-sm-min) {
+    width:62%;
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  @media(min-width:@col-md-min) {
+    width:55%;
+  }
+
+  .menu-item {
+    @media(min-width:601px) {
+      display:inline-block;
+      float:none;
+    }
+  }
+}
+
 #heading {
   clear:both;
   padding:20px 0;
   border-bottom:1px solid rgba(0,0,0,0.3);
 
-  @media (min-width: 768px) {
+  @media (min-width: @col-sm-min) {
     padding:30px 0;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: @col-md-min) {
     padding:40px 0;
   }
 
@@ -61,12 +144,12 @@ body {
         width:100%;
         font-size:18px;
 
-        @media (min-width: 768px) {
+        @media (min-width: @col-sm-min) {
           font-size:28px;
           width:400px;
         }
 
-        @media (min-width: 992px) {
+        @media (min-width: @col-md-min) {
           font-size:36px;
           width:500px;
         }
@@ -80,11 +163,11 @@ body {
   display:block;
   padding:30px 0;
 
-  @media(min-width:768px) {
+  @media(min-width:@col-sm-min) {
     padding:40px 0;
   }
 
-  @media(min-width:992px) {
+  @media(min-width:@col-md-min) {
     padding:50px 0;
   }
 
@@ -92,7 +175,7 @@ body {
     font-size:16px;
     padding:0 20px;
 
-    @media(min-width:768px) {
+    @media(min-width:@col-sm-min) {
       padding:0 40px;
     }
   }
@@ -108,11 +191,11 @@ body {
   }
 
   .convo-container {
-    @media(min-width:992px) {
+    @media(min-width:@col-md-min) {
       padding:0 30px;
     }
 
-    @media(min-width:1200px) {
+    @media(min-width:@col-lg-min) {
       padding:0 45px;
     }
   }
@@ -123,7 +206,7 @@ body {
     img {
       max-width:100%;
 
-      @media(min-width:768px) {
+      @media(min-width:@col-sm-min) {
         margin-top:-1px;
       }
     }
