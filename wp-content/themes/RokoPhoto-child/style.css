@@ -179,7 +179,6 @@ body .post-content li a {
 @media (min-width: 992px) {
   #banner .carousel-caption .carousel-content-wrap .text h1 {
     font-size: 36px;
-    width: 500px;
   }
 }
 #letter {
