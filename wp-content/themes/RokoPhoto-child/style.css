@@ -243,3 +243,15 @@ body .post-content li a {
 #footer p.footer-contact-email {
   margin-top: 20px;
 }
+.page img.featured-image-class {
+  width: 75%;
+  margin: auto;
+  display: -webkit-inline-box;
+  padding-top: 0px!important;
+}
+.page .blog-post {
+  margin-top: 50px;
+}
+.page .content-page-title {
+  margin-bottom: 40px;
+}
