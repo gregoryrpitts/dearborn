@@ -160,6 +160,9 @@ body .post-content li a {
   padding: 0;
   width: auto;
 }
+#banner .carousel-caption .carousel-content-wrap {
+  background: none;
+}
 #banner .carousel-caption .carousel-content-wrap .text {
   margin-left: 0;
   margin-right: 0;
@@ -170,6 +173,9 @@ body .post-content li a {
   text-align: center;
   width: 100%;
   font-size: 18px;
+  font-family: fantasy;
+  font-weight: 400px;
+  font-style: italic;
 }
 @media (min-width: 768px) {
   #banner .carousel-caption .carousel-content-wrap .text h1 {
