@@ -18,6 +18,13 @@ body p {
   line-height: 2;
   margin-bottom: 20px;
 }
+body .post-content li {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 2;
+}
+body .post-content li a {
+  text-decoration: underline;
+}
 .navbar-default {
   background-color: #222;
 }
@@ -119,30 +126,58 @@ body p {
   text-align: center;
   margin: 0;
 }
-.carousel-caption .content {
+#banner .slider-item-wrap {
+  height: 300px;
+}
+@media (min-width: 461px) {
+  #banner .slider-item-wrap {
+    height: 450px;
+  }
+}
+@media (min-width: 768px) {
+  #banner .slider-item-wrap {
+    height: 550px;
+  }
+}
+@media (min-width: 768px) {
+  #banner .slider-item-wrap {
+    height: 600px;
+  }
+}
+@media (min-width: 768px) {
+  #banner .slider-item-wrap {
+    height: 650px;
+  }
+}
+#banner .carousel-caption {
   position: absolute;
   right: 0;
   bottom: 0;
+  display: block;
+  top: auto;
+  left: auto;
+  height: auto;
+  padding: 0;
+  width: auto;
 }
-.carousel-caption .carousel-content-wrap .text {
+#banner .carousel-caption .carousel-content-wrap .text {
   margin-left: 0;
   margin-right: 0;
   padding: 0 30px;
 }
-.carousel-caption .carousel-content-wrap .text h1 {
+#banner .carousel-caption .carousel-content-wrap .text h1 {
   text-transform: none;
   text-align: center;
   width: 100%;
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  .carousel-caption .carousel-content-wrap .text h1 {
+  #banner .carousel-caption .carousel-content-wrap .text h1 {
     font-size: 28px;
-    width: 400px;
   }
 }
 @media (min-width: 992px) {
-  .carousel-caption .carousel-content-wrap .text h1 {
+  #banner .carousel-caption .carousel-content-wrap .text h1 {
     font-size: 36px;
     width: 500px;
   }
