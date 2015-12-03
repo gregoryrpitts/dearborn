@@ -1,5 +1,6 @@
 <?php
 
+$rokophoto_child_letter_title_image = get_theme_mod('rokophoto_child_letter_title_image');
 $rokophoto_child_letter_title = get_theme_mod('rokophoto_child_letter_title');
 $rokophoto_child_letter_paragraph_one = get_theme_mod('rokophoto_child_letter_text1');
 $rokophoto_child_letter_paragraph_two = get_theme_mod('rokophoto_child_letter_text2');

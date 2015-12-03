@@ -72,6 +72,18 @@ function rokophoto_child_customize_register($wp_customize) {
         'priority' => 8,
         'settings' => 'rokophoto_child_letter_title'
     ));
+    
+    /* Title Image */
+    $wp_customize->add_setting('rokophoto_child_letter_title_image', array(
+        'default' => get_template_directory_uri().'/../../uploads/2015/12/PelicanLogo.png',
+        'sanitize_callback' => 'esc_url_raw',
+    ));
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'rokophoto_child_letter_title_image', array(
+        'label' => __('Title Image', 'rokophoto'),
+        'section' => 'rokophoto_child_letter_settings',
+        'priority' => 9,
+        'settings' => 'rokophoto_child_letter_title_image'
+    )));
 
     /* Paragraph One */
     $wp_customize->add_setting('rokophoto_child_letter_text1', array(
