@@ -202,10 +202,23 @@ body .post-content li a {
     padding: 50px 0;
   }
 }
-#letter h3.heading {
+#letter .heading-container {
   text-align: center;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+}
+#letter .heading-container .heading-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75px;
+  margin-right: 30px;
+}
+#letter .heading-container .heading-image img {
+  width: 100%;
+}
+#letter .heading-container .heading-text {
+  margin: 0;
+  display: inline-block;
 }
 #letter .statement {
   font-size: 16px;
