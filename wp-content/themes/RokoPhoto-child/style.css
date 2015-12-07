@@ -273,3 +273,29 @@ body .post-content li a {
 .page .content-page-title {
   margin-bottom: 40px;
 }
+.contact-address p {
+  text-align: center !important;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 25px 0;
+  margin: 0;
+}
+.contact-page-form {
+  padding-top: 35px;
+}
+.contact-page-form form .form-control {
+  color: #666;
+}
+.contact-page-form form .btn {
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  margin-top: -25px;
+  color: #666;
+  -webkit-transition: background-color ease 0.8s;
+  transition: background-color ease 0.8s;
+}
+.contact-page-form form .btn:hover {
+  border-color: #adadad;
+}
